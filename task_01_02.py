@@ -6,8 +6,8 @@ while (plates > 0) and (fairy > 0):
 	plates -= 1
 
 if fairy > 0:
-    print('Plates washed. We have ', fairy, 'fairy')	
+    print('Все тарелки вымыты. Осталось ', fairy, 'ед. моющего средства.')	
 elif plates > 0:
-    print('Fairy was ended. We have ', plates, 'dirty plates')
+    print('Моющее средство закончилось. Осталось ', plates, 'тарелок.')
 else:
-    print('All plates washed, fairy was ended')        
+    print('Все тарелки вымыты, моющее средство закончилось.')        
