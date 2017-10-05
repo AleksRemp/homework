@@ -4,15 +4,15 @@ c = int(input())
 
 if (a >= b):
 	if (b >= c):
-		print (c, b, a, sep = ',')
+		print (c,b,a, sep = ',')
 	elif (c >= a):
-	    print(b, a, c, sep = ',')
+	    print(b,a,c, sep = ',')
 	else:
-		print(b, c, a, sep =',')
+		print(b,c,a, sep =',')
 else:
     if (b >= c):
-        print(a, c, b, sep = ',')	
+        print(a,c,b, sep = ',')	
     elif (c <= a):
-       print(c, a, b, sep = ',')
+       print(c,a,b, sep = ',')
     else:
-        print(a, c, b, sep = ',')	
+        print(a,c,b, sep = ',')	
